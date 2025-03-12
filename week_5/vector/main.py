@@ -1,29 +1,37 @@
 from vector_module import Vector, VectorCollection
 
-# Пример использования
-if __name__ == "__main__":
-    # Создаем контейнер и добавляем векторы
-    vc = VectorCollection()
-    vc.add(Vector(1, 2))
-    vc.add(Vector(3, 4))
+# Создаем объекты Vector
+v1 = Vector(1, 2)
+v2 = Vector(3, 4)
+v3 = Vector(5, 6)
 
-    # Выводим содержимое контейнера
-    print("Содержимое контейнера после добавления векторов:")
-    print(vc)
+# Создаем контейнер и добавляем векторы
+container = VectorCollection()
+container.add(v1)
+container.add(v2)
+container.add(v3)
 
-    # Сохраняем контейнер в файл
-    vc.save("vectors.json")
+# Выводим содержимое контейнера
+print("Содержимое контейнера после добавления векторов:")
+print(container)
 
-    # Загружаем контейнер из файла и выводим его содержимое
-    vc.load("vectors.json")
-    print("\nСодержимое контейнера после загрузки из файла:")
-    print(vc)
+# Проверяем метод __getitem__ (индексация)
+print("\nПроверка индексации (второй элемент):")
+print(container[1])  # Должен вывести Vector(3, 4)
 
-# Пример вывода программы:
-# Содержимое контейнера после добавления векторов:
-# Vector(1, 2)
-# Vector(3, 4)
-#
-# Содержимое контейнера после загрузки из файла:
-# Vector(1, 2)
-# Vector(3, 4)
+# Удаляем элемент по индексу
+print("\nУдаляем второй элемент:")
+container.remove(1)
+print("Содержимое контейнера после удаления:")
+print(container)
+
+# Сохраняем контейнер в файл
+print("\nСохраняем контейнер в файл 'vectors.json'...")
+container.save("vectors.json")
+
+# Загружаем контейнер из файла
+print("Загружаем контейнер из файла 'vectors.json'...")
+new_container = VectorCollection()
+new_container.load("vectors.json")
+print("Содержимое контейнера после загрузки:")
+print(new_container)

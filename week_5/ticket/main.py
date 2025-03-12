@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 def main():
     # Создаем билеты
     bezlimitny = BezlimitnyBilet("Иван Иванов")
-    ogranichenie_vremeni = BiletSOgranicheniem("Петр Петров", (datetime.now() + timedelta(days=365 * 2)).strftime('%Y-%m-%d'))  # Билет действителен 2 года (до 2025 года)
+    ogranichenie_vremeni = BiletSOgranicheniem("Петр Петров", (datetime.now() + timedelta(days=365 * 2)).strftime('%Y-%m-%d'))  # Билет действителен 2 года 
     ogranichenie_poezdok = BiletSOgranicheniemPoezdok("Сидор Сидоров", 10)
 
     # Тестируем безлимитный билет
