@@ -1,0 +1,5 @@
+# ninja log v5
+3	485	7654854860537720	CMakeFiles/WordCount.dir/main.cpp.obj	f81d55367888ea74
+485	701	7654854862567411	WordCount.exe	d3429758cc9b7bef
+3	759	7656285762584507	CMakeFiles/WordCount.dir/main.cpp.obj	f81d55367888ea74
+759	933	7656285763907053	WordCount.exe	d3429758cc9b7bef

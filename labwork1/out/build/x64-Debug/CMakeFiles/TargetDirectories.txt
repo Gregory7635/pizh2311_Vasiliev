@@ -1,0 +1,3 @@
+C:/Users/Gregory/Desktop/labwork1/out/build/x64-Debug/CMakeFiles/WordCount.dir
+C:/Users/Gregory/Desktop/labwork1/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Gregory/Desktop/labwork1/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
