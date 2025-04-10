@@ -1,12 +1,4 @@
-/**
- * @file WordCount.cpp
- * @brief Утилита для подсчета строк, слов, байт и символов в файле.
- *
- * Аналог команды `wc` в Unix. Поддерживает аргументы командной строки:
- * -l (lines), -w (words), -c (bytes), -m (chars), а также --help.
- *
- * Реализует основные операции с файловыми потоками, парсинг аргументов и подсчет статистики.
- */
+
 
 #include <fstream>
 #include <iostream>
@@ -15,19 +7,16 @@
 #include <vector>
 #include <cctype>
 
- /**
-  * @struct FileStats
-  * @brief Структура для хранения статистики по файлу.
-  */
+ 
 struct FileStats {
-    size_t lines = 0;          ///< Количество строк
-    size_t words = 0;          ///< Количество слов
-    size_t bytes = 0;          ///< Количество байт
-    size_t chars = 0;          ///< Количество символов
-    std::string filename;      ///< Имя файла
+    size_t lines = 0;          ///< ГЉГ®Г«ГЁГ·ГҐГ±ГІГўГ® Г±ГІГ°Г®ГЄ
+    size_t words = 0;          ///< ГЉГ®Г«ГЁГ·ГҐГ±ГІГўГ® Г±Г«Г®Гў
+    size_t bytes = 0;          ///< ГЉГ®Г«ГЁГ·ГҐГ±ГІГўГ® ГЎГ Г©ГІ
+    size_t chars = 0;          ///< ГЉГ®Г«ГЁГ·ГҐГ±ГІГўГ® Г±ГЁГ¬ГўГ®Г«Г®Гў
+    std::string filename;      ///< Г€Г¬Гї ГґГ Г©Г«Г 
 };
 
-/// @brief Сообщение помощи, выводимое при использовании --help
+
 const std::string kHelpMessage =
 "Usage: WordCount [OPTION]... [FILE]...\n"
 "Print line, word, byte, and character counts for each FILE.\n\n"
@@ -38,12 +27,7 @@ const std::string kHelpMessage =
 "  -m, --chars    print the character counts\n"
 "  --help         display this help and exit\n";
 
-/**
- * @brief Подсчитывает строки, слова, байты и символы в заданном файле.
- *
- * @param filename Имя файла для анализа.
- * @return FileStats Структура с результатами подсчета.
- */
+
 FileStats CountFileStats(const std::string& filename) {
     FileStats stats;
     stats.filename = filename;
@@ -95,16 +79,7 @@ FileStats CountFileStats(const std::string& filename) {
     return stats;
 }
 
-/**
- * @brief Печатает статистику по файлу в соответствии с выбранными флагами.
- *
- * @param stats Статистика файла.
- * @param show_lines Выводить ли количество строк.
- * @param show_words Выводить ли количество слов.
- * @param show_bytes Выводить ли количество байт.
- * @param show_chars Выводить ли количество символов.
- * @param show_filename Выводить ли имя файла.
- */
+
 void PrintStats(const FileStats& stats, bool show_lines, bool show_words,
     bool show_bytes, bool show_chars, bool show_filename) {
     std::cout << std::setw(10);
@@ -116,15 +91,7 @@ void PrintStats(const FileStats& stats, bool show_lines, bool show_words,
     std::cout << "\n";
 }
 
-/**
- * @brief Точка входа в программу.
- *
- * Парсит аргументы командной строки, вызывает подсчет статистики и выводит результат.
- *
- * @param argc Количество аргументов.
- * @param argv Массив аргументов.
- * @return int Код завершения (0 — успешно, 1 — ошибка).
- */
+
 int main(int argc, char** argv) {
     std::vector<std::string> filenames;
     bool show_lines = false;
@@ -157,7 +124,7 @@ int main(int argc, char** argv) {
             default_mode = false;
         }
         else if (arg[0] == '-') {
-            // Обработка коротких флагов (например, -lwc)
+            
             for (size_t j = 1; j < arg.size(); ++j) {
                 switch (arg[j]) {
                 case 'l': show_lines = true; default_mode = false; break;
