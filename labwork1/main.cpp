@@ -9,11 +9,11 @@
 
  
 struct FileStats {
-    size_t lines = 0;          ///< Êîëè÷åñòâî ñòðîê
-    size_t words = 0;          ///< Êîëè÷åñòâî ñëîâ
-    size_t bytes = 0;          ///< Êîëè÷åñòâî áàéò
-    size_t chars = 0;          ///< Êîëè÷åñòâî ñèìâîëîâ
-    std::string filename;      ///< Èìÿ ôàéëà
+    size_t lines = 0;          
+    size_t words = 0;         
+    size_t bytes = 0;          
+    size_t chars = 0;          
+    std::string filename;      
 };
 
 
