@@ -140,6 +140,33 @@ uint2022_t operator/(const uint2022_t& lhs, const uint2022_t& rhs) {
 
     return quotient;
 }
+bool operator!=(const uint2022_t& lhs, const uint2022_t& rhs) {
+    return !(lhs == rhs);
+}
+
+std::ostream& operator<<(std::ostream& stream, const uint2022_t& value) {
+    if (value == uint2022_t()) {
+        stream << "0";
+        return stream;
+    }
+
+    uint2022_t tmp = value;
+    std::string result;
+
+    while (tmp != uint2022_t()) {
+        uint32_t remainder = 0;
+        for (int i = tmp.NUM_WORDS - 1; i >= 0; i--) {
+            uint64_t value = ((uint64_t)remainder << 32) + tmp.parts[i];
+            tmp.parts[i] = value / 10;
+            remainder = value % 10;
+        }
+        result.push_back(remainder + '0');
+    }
+
+    std::reverse(result.begin(), result.end());
+    stream << result;
+    return stream;
+}
 
 
 
