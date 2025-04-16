@@ -1,0 +1,813 @@
+Start testing: Apr 16 17:43 RTZ 2 (çèìà)
+----------------------------------------------------------
+1/30 Testing: Group/ConvertingTestsSuite.EqualTest/(0, 00007FF7F4D37FD0 pointing to "0", true)
+1/30 Test: Group/ConvertingTestsSuite.EqualTest/(0, 00007FF7F4D37FD0 pointing to "0", true)
+Command: "C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests/number_tests.exe" "--gtest_filter=Group/ConvertingTestsSuite.EqualTest/0" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests
+"Group/ConvertingTestsSuite.EqualTest/(0, 00007FF7F4D37FD0 pointing to "0", true)" start time: Apr 16 17:43 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Gregory\Desktop\labwork2\out\build\x64-Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Group/ConvertingTestsSuite.EqualTest/0
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Group/ConvertingTestsSuite
+[ RUN      ] Group/ConvertingTestsSuite.EqualTest/0
+[       OK ] Group/ConvertingTestsSuite.EqualTest/0 (0 ms)
+[----------] 1 test from Group/ConvertingTestsSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"Group/ConvertingTestsSuite.EqualTest/(0, 00007FF7F4D37FD0 pointing to "0", true)" end time: Apr 16 17:43 RTZ 2 (çèìà)
+"Group/ConvertingTestsSuite.EqualTest/(0, 00007FF7F4D37FD0 pointing to "0", true)" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/30 Testing: Group/ConvertingTestsSuite.EqualTest/(239, 00007FF7F4D37FCC pointing to "239", true)
+2/30 Test: Group/ConvertingTestsSuite.EqualTest/(239, 00007FF7F4D37FCC pointing to "239", true)
+Command: "C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests/number_tests.exe" "--gtest_filter=Group/ConvertingTestsSuite.EqualTest/1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests
+"Group/ConvertingTestsSuite.EqualTest/(239, 00007FF7F4D37FCC pointing to "239", true)" start time: Apr 16 17:43 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Gregory\Desktop\labwork2\out\build\x64-Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Group/ConvertingTestsSuite.EqualTest/1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Group/ConvertingTestsSuite
+[ RUN      ] Group/ConvertingTestsSuite.EqualTest/1
+[       OK ] Group/ConvertingTestsSuite.EqualTest/1 (0 ms)
+[----------] 1 test from Group/ConvertingTestsSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Group/ConvertingTestsSuite.EqualTest/(239, 00007FF7F4D37FCC pointing to "239", true)" end time: Apr 16 17:43 RTZ 2 (çèìà)
+"Group/ConvertingTestsSuite.EqualTest/(239, 00007FF7F4D37FCC pointing to "239", true)" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/30 Testing: Group/ConvertingTestsSuite.EqualTest/(255, 00007FF7F4D37FC8 pointing to "255", true)
+3/30 Test: Group/ConvertingTestsSuite.EqualTest/(255, 00007FF7F4D37FC8 pointing to "255", true)
+Command: "C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests/number_tests.exe" "--gtest_filter=Group/ConvertingTestsSuite.EqualTest/2" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests
+"Group/ConvertingTestsSuite.EqualTest/(255, 00007FF7F4D37FC8 pointing to "255", true)" start time: Apr 16 17:43 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Gregory\Desktop\labwork2\out\build\x64-Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Group/ConvertingTestsSuite.EqualTest/2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Group/ConvertingTestsSuite
+[ RUN      ] Group/ConvertingTestsSuite.EqualTest/2
+[       OK ] Group/ConvertingTestsSuite.EqualTest/2 (0 ms)
+[----------] 1 test from Group/ConvertingTestsSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Group/ConvertingTestsSuite.EqualTest/(255, 00007FF7F4D37FC8 pointing to "255", true)" end time: Apr 16 17:43 RTZ 2 (çèìà)
+"Group/ConvertingTestsSuite.EqualTest/(255, 00007FF7F4D37FC8 pointing to "255", true)" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/30 Testing: Group/ConvertingTestsSuite.EqualTest/(256, 00007FF7F4D37FC4 pointing to "256", true)
+4/30 Test: Group/ConvertingTestsSuite.EqualTest/(256, 00007FF7F4D37FC4 pointing to "256", true)
+Command: "C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests/number_tests.exe" "--gtest_filter=Group/ConvertingTestsSuite.EqualTest/3" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests
+"Group/ConvertingTestsSuite.EqualTest/(256, 00007FF7F4D37FC4 pointing to "256", true)" start time: Apr 16 17:43 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Gregory\Desktop\labwork2\out\build\x64-Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Group/ConvertingTestsSuite.EqualTest/3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Group/ConvertingTestsSuite
+[ RUN      ] Group/ConvertingTestsSuite.EqualTest/3
+[       OK ] Group/ConvertingTestsSuite.EqualTest/3 (0 ms)
+[----------] 1 test from Group/ConvertingTestsSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Group/ConvertingTestsSuite.EqualTest/(256, 00007FF7F4D37FC4 pointing to "256", true)" end time: Apr 16 17:43 RTZ 2 (çèìà)
+"Group/ConvertingTestsSuite.EqualTest/(256, 00007FF7F4D37FC4 pointing to "256", true)" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/30 Testing: Group/ConvertingTestsSuite.EqualTest/(10000, 00007FF7F4D37FBC pointing to "10000", true)
+5/30 Test: Group/ConvertingTestsSuite.EqualTest/(10000, 00007FF7F4D37FBC pointing to "10000", true)
+Command: "C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests/number_tests.exe" "--gtest_filter=Group/ConvertingTestsSuite.EqualTest/4" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests
+"Group/ConvertingTestsSuite.EqualTest/(10000, 00007FF7F4D37FBC pointing to "10000", true)" start time: Apr 16 17:43 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Gregory\Desktop\labwork2\out\build\x64-Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Group/ConvertingTestsSuite.EqualTest/4
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Group/ConvertingTestsSuite
+[ RUN      ] Group/ConvertingTestsSuite.EqualTest/4
+[       OK ] Group/ConvertingTestsSuite.EqualTest/4 (0 ms)
+[----------] 1 test from Group/ConvertingTestsSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Group/ConvertingTestsSuite.EqualTest/(10000, 00007FF7F4D37FBC pointing to "10000", true)" end time: Apr 16 17:43 RTZ 2 (çèìà)
+"Group/ConvertingTestsSuite.EqualTest/(10000, 00007FF7F4D37FBC pointing to "10000", true)" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/30 Testing: Group/ConvertingTestsSuite.EqualTest/(32767, 00007FF7F4D37FB4 pointing to "32767", true)
+6/30 Test: Group/ConvertingTestsSuite.EqualTest/(32767, 00007FF7F4D37FB4 pointing to "32767", true)
+Command: "C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests/number_tests.exe" "--gtest_filter=Group/ConvertingTestsSuite.EqualTest/5" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests
+"Group/ConvertingTestsSuite.EqualTest/(32767, 00007FF7F4D37FB4 pointing to "32767", true)" start time: Apr 16 17:43 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Gregory\Desktop\labwork2\out\build\x64-Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Group/ConvertingTestsSuite.EqualTest/5
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Group/ConvertingTestsSuite
+[ RUN      ] Group/ConvertingTestsSuite.EqualTest/5
+[       OK ] Group/ConvertingTestsSuite.EqualTest/5 (0 ms)
+[----------] 1 test from Group/ConvertingTestsSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Group/ConvertingTestsSuite.EqualTest/(32767, 00007FF7F4D37FB4 pointing to "32767", true)" end time: Apr 16 17:43 RTZ 2 (çèìà)
+"Group/ConvertingTestsSuite.EqualTest/(32767, 00007FF7F4D37FB4 pointing to "32767", true)" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/30 Testing: Group/ConvertingTestsSuite.EqualTest/(32768, 00007FF7F4D37FAC pointing to "32768", true)
+7/30 Test: Group/ConvertingTestsSuite.EqualTest/(32768, 00007FF7F4D37FAC pointing to "32768", true)
+Command: "C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests/number_tests.exe" "--gtest_filter=Group/ConvertingTestsSuite.EqualTest/6" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests
+"Group/ConvertingTestsSuite.EqualTest/(32768, 00007FF7F4D37FAC pointing to "32768", true)" start time: Apr 16 17:43 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Gregory\Desktop\labwork2\out\build\x64-Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Group/ConvertingTestsSuite.EqualTest/6
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Group/ConvertingTestsSuite
+[ RUN      ] Group/ConvertingTestsSuite.EqualTest/6
+[       OK ] Group/ConvertingTestsSuite.EqualTest/6 (0 ms)
+[----------] 1 test from Group/ConvertingTestsSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Group/ConvertingTestsSuite.EqualTest/(32768, 00007FF7F4D37FAC pointing to "32768", true)" end time: Apr 16 17:43 RTZ 2 (çèìà)
+"Group/ConvertingTestsSuite.EqualTest/(32768, 00007FF7F4D37FAC pointing to "32768", true)" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/30 Testing: Group/ConvertingTestsSuite.EqualTest/(65535, 00007FF7F4D37FA4 pointing to "65535", true)
+8/30 Test: Group/ConvertingTestsSuite.EqualTest/(65535, 00007FF7F4D37FA4 pointing to "65535", true)
+Command: "C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests/number_tests.exe" "--gtest_filter=Group/ConvertingTestsSuite.EqualTest/7" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests
+"Group/ConvertingTestsSuite.EqualTest/(65535, 00007FF7F4D37FA4 pointing to "65535", true)" start time: Apr 16 17:43 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Gregory\Desktop\labwork2\out\build\x64-Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Group/ConvertingTestsSuite.EqualTest/7
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Group/ConvertingTestsSuite
+[ RUN      ] Group/ConvertingTestsSuite.EqualTest/7
+[       OK ] Group/ConvertingTestsSuite.EqualTest/7 (0 ms)
+[----------] 1 test from Group/ConvertingTestsSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Group/ConvertingTestsSuite.EqualTest/(65535, 00007FF7F4D37FA4 pointing to "65535", true)" end time: Apr 16 17:43 RTZ 2 (çèìà)
+"Group/ConvertingTestsSuite.EqualTest/(65535, 00007FF7F4D37FA4 pointing to "65535", true)" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/30 Testing: Group/ConvertingTestsSuite.EqualTest/(2147483647, 00007FF7F4D37F98 pointing to "2147483647", true)
+9/30 Test: Group/ConvertingTestsSuite.EqualTest/(2147483647, 00007FF7F4D37F98 pointing to "2147483647", true)
+Command: "C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests/number_tests.exe" "--gtest_filter=Group/ConvertingTestsSuite.EqualTest/8" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests
+"Group/ConvertingTestsSuite.EqualTest/(2147483647, 00007FF7F4D37F98 pointing to "2147483647", true)" start time: Apr 16 17:43 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Gregory\Desktop\labwork2\out\build\x64-Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Group/ConvertingTestsSuite.EqualTest/8
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Group/ConvertingTestsSuite
+[ RUN      ] Group/ConvertingTestsSuite.EqualTest/8
+[       OK ] Group/ConvertingTestsSuite.EqualTest/8 (0 ms)
+[----------] 1 test from Group/ConvertingTestsSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Group/ConvertingTestsSuite.EqualTest/(2147483647, 00007FF7F4D37F98 pointing to "2147483647", true)" end time: Apr 16 17:43 RTZ 2 (çèìà)
+"Group/ConvertingTestsSuite.EqualTest/(2147483647, 00007FF7F4D37F98 pointing to "2147483647", true)" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/30 Testing: Group/ConvertingTestsSuite.EqualTest/(0, 00007FF7F4D37F94 pointing to "1", false)
+10/30 Test: Group/ConvertingTestsSuite.EqualTest/(0, 00007FF7F4D37F94 pointing to "1", false)
+Command: "C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests/number_tests.exe" "--gtest_filter=Group/ConvertingTestsSuite.EqualTest/9" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests
+"Group/ConvertingTestsSuite.EqualTest/(0, 00007FF7F4D37F94 pointing to "1", false)" start time: Apr 16 17:43 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Gregory\Desktop\labwork2\out\build\x64-Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Group/ConvertingTestsSuite.EqualTest/9
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Group/ConvertingTestsSuite
+[ RUN      ] Group/ConvertingTestsSuite.EqualTest/9
+[       OK ] Group/ConvertingTestsSuite.EqualTest/9 (0 ms)
+[----------] 1 test from Group/ConvertingTestsSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Group/ConvertingTestsSuite.EqualTest/(0, 00007FF7F4D37F94 pointing to "1", false)" end time: Apr 16 17:43 RTZ 2 (çèìà)
+"Group/ConvertingTestsSuite.EqualTest/(0, 00007FF7F4D37F94 pointing to "1", false)" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/30 Testing: Group/ConvertingTestsSuite.EqualTest/(32768, 00007FF7F4D37F8C pointing to "32769", false)
+11/30 Test: Group/ConvertingTestsSuite.EqualTest/(32768, 00007FF7F4D37F8C pointing to "32769", false)
+Command: "C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests/number_tests.exe" "--gtest_filter=Group/ConvertingTestsSuite.EqualTest/10" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests
+"Group/ConvertingTestsSuite.EqualTest/(32768, 00007FF7F4D37F8C pointing to "32769", false)" start time: Apr 16 17:43 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Gregory\Desktop\labwork2\out\build\x64-Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Group/ConvertingTestsSuite.EqualTest/10
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Group/ConvertingTestsSuite
+[ RUN      ] Group/ConvertingTestsSuite.EqualTest/10
+[       OK ] Group/ConvertingTestsSuite.EqualTest/10 (0 ms)
+[----------] 1 test from Group/ConvertingTestsSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Group/ConvertingTestsSuite.EqualTest/(32768, 00007FF7F4D37F8C pointing to "32769", false)" end time: Apr 16 17:43 RTZ 2 (çèìà)
+"Group/ConvertingTestsSuite.EqualTest/(32768, 00007FF7F4D37F8C pointing to "32769", false)" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/30 Testing: Group/ConvertingTestsSuite.EqualTest/(255, 00007FF7F4D37F88 pointing to "256", false)
+12/30 Test: Group/ConvertingTestsSuite.EqualTest/(255, 00007FF7F4D37F88 pointing to "256", false)
+Command: "C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests/number_tests.exe" "--gtest_filter=Group/ConvertingTestsSuite.EqualTest/11" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests
+"Group/ConvertingTestsSuite.EqualTest/(255, 00007FF7F4D37F88 pointing to "256", false)" start time: Apr 16 17:43 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Gregory\Desktop\labwork2\out\build\x64-Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Group/ConvertingTestsSuite.EqualTest/11
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Group/ConvertingTestsSuite
+[ RUN      ] Group/ConvertingTestsSuite.EqualTest/11
+[       OK ] Group/ConvertingTestsSuite.EqualTest/11 (0 ms)
+[----------] 1 test from Group/ConvertingTestsSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Group/ConvertingTestsSuite.EqualTest/(255, 00007FF7F4D37F88 pointing to "256", false)" end time: Apr 16 17:43 RTZ 2 (çèìà)
+"Group/ConvertingTestsSuite.EqualTest/(255, 00007FF7F4D37F88 pointing to "256", false)" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/30 Testing: Group/ConvertingTestsSuite.EqualTest/(256, 00007FF7F4D37F84 pointing to "255", false)
+13/30 Test: Group/ConvertingTestsSuite.EqualTest/(256, 00007FF7F4D37F84 pointing to "255", false)
+Command: "C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests/number_tests.exe" "--gtest_filter=Group/ConvertingTestsSuite.EqualTest/12" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests
+"Group/ConvertingTestsSuite.EqualTest/(256, 00007FF7F4D37F84 pointing to "255", false)" start time: Apr 16 17:43 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Gregory\Desktop\labwork2\out\build\x64-Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Group/ConvertingTestsSuite.EqualTest/12
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Group/ConvertingTestsSuite
+[ RUN      ] Group/ConvertingTestsSuite.EqualTest/12
+[       OK ] Group/ConvertingTestsSuite.EqualTest/12 (0 ms)
+[----------] 1 test from Group/ConvertingTestsSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Group/ConvertingTestsSuite.EqualTest/(256, 00007FF7F4D37F84 pointing to "255", false)" end time: Apr 16 17:43 RTZ 2 (çèìà)
+"Group/ConvertingTestsSuite.EqualTest/(256, 00007FF7F4D37F84 pointing to "255", false)" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/30 Testing: Group/ConvertingTestsSuite.EqualTest/(31251, 00007FF7F4D37F7C pointing to "31252", false)
+14/30 Test: Group/ConvertingTestsSuite.EqualTest/(31251, 00007FF7F4D37F7C pointing to "31252", false)
+Command: "C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests/number_tests.exe" "--gtest_filter=Group/ConvertingTestsSuite.EqualTest/13" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests
+"Group/ConvertingTestsSuite.EqualTest/(31251, 00007FF7F4D37F7C pointing to "31252", false)" start time: Apr 16 17:43 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Gregory\Desktop\labwork2\out\build\x64-Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Group/ConvertingTestsSuite.EqualTest/13
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Group/ConvertingTestsSuite
+[ RUN      ] Group/ConvertingTestsSuite.EqualTest/13
+[       OK ] Group/ConvertingTestsSuite.EqualTest/13 (0 ms)
+[----------] 1 test from Group/ConvertingTestsSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Group/ConvertingTestsSuite.EqualTest/(31251, 00007FF7F4D37F7C pointing to "31252", false)" end time: Apr 16 17:43 RTZ 2 (çèìà)
+"Group/ConvertingTestsSuite.EqualTest/(31251, 00007FF7F4D37F7C pointing to "31252", false)" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/30 Testing: Group/ConvertingTestsSuite.EqualTest/(2147483647, 00007FF7F4D37F70 pointing to "2147483648", false)
+15/30 Test: Group/ConvertingTestsSuite.EqualTest/(2147483647, 00007FF7F4D37F70 pointing to "2147483648", false)
+Command: "C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests/number_tests.exe" "--gtest_filter=Group/ConvertingTestsSuite.EqualTest/14" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests
+"Group/ConvertingTestsSuite.EqualTest/(2147483647, 00007FF7F4D37F70 pointing to "2147483648", false)" start time: Apr 16 17:43 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Gregory\Desktop\labwork2\out\build\x64-Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Group/ConvertingTestsSuite.EqualTest/14
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Group/ConvertingTestsSuite
+[ RUN      ] Group/ConvertingTestsSuite.EqualTest/14
+[       OK ] Group/ConvertingTestsSuite.EqualTest/14 (0 ms)
+[----------] 1 test from Group/ConvertingTestsSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Group/ConvertingTestsSuite.EqualTest/(2147483647, 00007FF7F4D37F70 pointing to "2147483648", false)" end time: Apr 16 17:43 RTZ 2 (çèìà)
+"Group/ConvertingTestsSuite.EqualTest/(2147483647, 00007FF7F4D37F70 pointing to "2147483648", false)" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/30 Testing: Group/OperationTestsSuite.AddTest/(00007FF7F4D376F4 pointing to "1", 00007FF7F4D376F0 pointing to "1", 00007FF7F4D376EC pointing to "2", 00007FF7F4D376E8 pointing to "0", 00007FF7F4D376E4 pointing to "1")
+16/30 Test: Group/OperationTestsSuite.AddTest/(00007FF7F4D376F4 pointing to "1", 00007FF7F4D376F0 pointing to "1", 00007FF7F4D376EC pointing to "2", 00007FF7F4D376E8 pointing to "0", 00007FF7F4D376E4 pointing to "1")
+Command: "C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests/number_tests.exe" "--gtest_filter=Group/OperationTestsSuite.AddTest/0" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests
+"Group/OperationTestsSuite.AddTest/(00007FF7F4D376F4 pointing to "1", 00007FF7F4D376F0 pointing to "1", 00007FF7F4D376EC pointing to "2", 00007FF7F4D376E8 pointing to "0", 00007FF7F4D376E4 pointing to "1")" start time: Apr 16 17:43 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Gregory\Desktop\labwork2\out\build\x64-Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Group/OperationTestsSuite.AddTest/0
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Group/OperationTestsSuite
+[ RUN      ] Group/OperationTestsSuite.AddTest/0
+[       OK ] Group/OperationTestsSuite.AddTest/0 (0 ms)
+[----------] 1 test from Group/OperationTestsSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Group/OperationTestsSuite.AddTest/(00007FF7F4D376F4 pointing to "1", 00007FF7F4D376F0 pointing to "1", 00007FF7F4D376EC pointing to "2", 00007FF7F4D376E8 pointing to "0", 00007FF7F4D376E4 pointing to "1")" end time: Apr 16 17:43 RTZ 2 (çèìà)
+"Group/OperationTestsSuite.AddTest/(00007FF7F4D376F4 pointing to "1", 00007FF7F4D376F0 pointing to "1", 00007FF7F4D376EC pointing to "2", 00007FF7F4D376E8 pointing to "0", 00007FF7F4D376E4 pointing to "1")" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/30 Testing: Group/OperationTestsSuite.AddTest/(00007FF7F4D376DC pointing to "1024", 00007FF7F4D376D8 pointing to "1", 00007FF7F4D376D0 pointing to "1025", 00007FF7F4D376C8 pointing to "1023", 00007FF7F4D376C0 pointing to "1024")
+17/30 Test: Group/OperationTestsSuite.AddTest/(00007FF7F4D376DC pointing to "1024", 00007FF7F4D376D8 pointing to "1", 00007FF7F4D376D0 pointing to "1025", 00007FF7F4D376C8 pointing to "1023", 00007FF7F4D376C0 pointing to "1024")
+Command: "C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests/number_tests.exe" "--gtest_filter=Group/OperationTestsSuite.AddTest/1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests
+"Group/OperationTestsSuite.AddTest/(00007FF7F4D376DC pointing to "1024", 00007FF7F4D376D8 pointing to "1", 00007FF7F4D376D0 pointing to "1025", 00007FF7F4D376C8 pointing to "1023", 00007FF7F4D376C0 pointing to "1024")" start time: Apr 16 17:43 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Gregory\Desktop\labwork2\out\build\x64-Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Group/OperationTestsSuite.AddTest/1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Group/OperationTestsSuite
+[ RUN      ] Group/OperationTestsSuite.AddTest/1
+[       OK ] Group/OperationTestsSuite.AddTest/1 (0 ms)
+[----------] 1 test from Group/OperationTestsSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Group/OperationTestsSuite.AddTest/(00007FF7F4D376DC pointing to "1024", 00007FF7F4D376D8 pointing to "1", 00007FF7F4D376D0 pointing to "1025", 00007FF7F4D376C8 pointing to "1023", 00007FF7F4D376C0 pointing to "1024")" end time: Apr 16 17:43 RTZ 2 (çèìà)
+"Group/OperationTestsSuite.AddTest/(00007FF7F4D376DC pointing to "1024", 00007FF7F4D376D8 pointing to "1", 00007FF7F4D376D0 pointing to "1025", 00007FF7F4D376C8 pointing to "1023", 00007FF7F4D376C0 pointing to "1024")" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/30 Testing: Group/OperationTestsSuite.AddTest/(00007FF7F4D37670 pointing to "405272312330606683982498447530407677486444946329741970511324085183808429621437", 00007FF7F4D37660 pointing to "1", 00007FF7F4D37610 pointing to "40527231233060668398249844753040767748644494632974197051132408518380842962...
+18/30 Test: Group/OperationTestsSuite.AddTest/(00007FF7F4D37670 pointing to "405272312330606683982498447530407677486444946329741970511324085183808429621437", 00007FF7F4D37660 pointing to "1", 00007FF7F4D37610 pointing to "40527231233060668398249844753040767748644494632974197051132408518380842962...
+Command: "C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests/number_tests.exe" "--gtest_filter=Group/OperationTestsSuite.AddTest/2" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests
+"Group/OperationTestsSuite.AddTest/(00007FF7F4D37670 pointing to "405272312330606683982498447530407677486444946329741970511324085183808429621437", 00007FF7F4D37660 pointing to "1", 00007FF7F4D37610 pointing to "40527231233060668398249844753040767748644494632974197051132408518380842962..." start time: Apr 16 17:43 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Gregory\Desktop\labwork2\out\build\x64-Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Group/OperationTestsSuite.AddTest/2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Group/OperationTestsSuite
+[ RUN      ] Group/OperationTestsSuite.AddTest/2
+[       OK ] Group/OperationTestsSuite.AddTest/2 (0 ms)
+[----------] 1 test from Group/OperationTestsSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Group/OperationTestsSuite.AddTest/(00007FF7F4D37670 pointing to "405272312330606683982498447530407677486444946329741970511324085183808429621437", 00007FF7F4D37660 pointing to "1", 00007FF7F4D37610 pointing to "40527231233060668398249844753040767748644494632974197051132408518380842962..." end time: Apr 16 17:43 RTZ 2 (çèìà)
+"Group/OperationTestsSuite.AddTest/(00007FF7F4D37670 pointing to "405272312330606683982498447530407677486444946329741970511324085183808429621437", 00007FF7F4D37660 pointing to "1", 00007FF7F4D37610 pointing to "40527231233060668398249844753040767748644494632974197051132408518380842962..." time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/30 Testing: Group/OperationTestsSuite.AddTest/(00007FF7F4D37520 pointing to "405272312330606683982498447530407677486444946329741977764879002871583477858493", 00007FF7F4D37510 pointing to "0", 00007FF7F4D374C0 pointing to "40527231233060668398249844753040767748644494632974197776487900287158347785...
+19/30 Test: Group/OperationTestsSuite.AddTest/(00007FF7F4D37520 pointing to "405272312330606683982498447530407677486444946329741977764879002871583477858493", 00007FF7F4D37510 pointing to "0", 00007FF7F4D374C0 pointing to "40527231233060668398249844753040767748644494632974197776487900287158347785...
+Command: "C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests/number_tests.exe" "--gtest_filter=Group/OperationTestsSuite.AddTest/3" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests
+"Group/OperationTestsSuite.AddTest/(00007FF7F4D37520 pointing to "405272312330606683982498447530407677486444946329741977764879002871583477858493", 00007FF7F4D37510 pointing to "0", 00007FF7F4D374C0 pointing to "40527231233060668398249844753040767748644494632974197776487900287158347785..." start time: Apr 16 17:43 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Gregory\Desktop\labwork2\out\build\x64-Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Group/OperationTestsSuite.AddTest/3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Group/OperationTestsSuite
+[ RUN      ] Group/OperationTestsSuite.AddTest/3
+[       OK ] Group/OperationTestsSuite.AddTest/3 (0 ms)
+[----------] 1 test from Group/OperationTestsSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Group/OperationTestsSuite.AddTest/(00007FF7F4D37520 pointing to "405272312330606683982498447530407677486444946329741977764879002871583477858493", 00007FF7F4D37510 pointing to "0", 00007FF7F4D374C0 pointing to "40527231233060668398249844753040767748644494632974197776487900287158347785..." end time: Apr 16 17:43 RTZ 2 (çèìà)
+"Group/OperationTestsSuite.AddTest/(00007FF7F4D37520 pointing to "405272312330606683982498447530407677486444946329741977764879002871583477858493", 00007FF7F4D37510 pointing to "0", 00007FF7F4D374C0 pointing to "40527231233060668398249844753040767748644494632974197776487900287158347785..." time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/30 Testing: Group/OperationTestsSuite.AddTest/(00007FF7F4D37410 pointing to "405272312330606683982498447530407677486444946329741974138101544027695953739965", 00007FF7F4D373F0 pointing to "3626777458843887524118528", 00007FF7F4D373A0 pointing to "40527231233060668398249844753040767748644494632974...
+20/30 Test: Group/OperationTestsSuite.AddTest/(00007FF7F4D37410 pointing to "405272312330606683982498447530407677486444946329741974138101544027695953739965", 00007FF7F4D373F0 pointing to "3626777458843887524118528", 00007FF7F4D373A0 pointing to "40527231233060668398249844753040767748644494632974...
+Command: "C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests/number_tests.exe" "--gtest_filter=Group/OperationTestsSuite.AddTest/4" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests
+"Group/OperationTestsSuite.AddTest/(00007FF7F4D37410 pointing to "405272312330606683982498447530407677486444946329741974138101544027695953739965", 00007FF7F4D373F0 pointing to "3626777458843887524118528", 00007FF7F4D373A0 pointing to "40527231233060668398249844753040767748644494632974..." start time: Apr 16 17:43 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Gregory\Desktop\labwork2\out\build\x64-Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Group/OperationTestsSuite.AddTest/4
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Group/OperationTestsSuite
+[ RUN      ] Group/OperationTestsSuite.AddTest/4
+[       OK ] Group/OperationTestsSuite.AddTest/4 (0 ms)
+[----------] 1 test from Group/OperationTestsSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Group/OperationTestsSuite.AddTest/(00007FF7F4D37410 pointing to "405272312330606683982498447530407677486444946329741974138101544027695953739965", 00007FF7F4D373F0 pointing to "3626777458843887524118528", 00007FF7F4D373A0 pointing to "40527231233060668398249844753040767748644494632974..." end time: Apr 16 17:43 RTZ 2 (çèìà)
+"Group/OperationTestsSuite.AddTest/(00007FF7F4D37410 pointing to "405272312330606683982498447530407677486444946329741974138101544027695953739965", 00007FF7F4D373F0 pointing to "3626777458843887524118528", 00007FF7F4D373A0 pointing to "40527231233060668398249844753040767748644494632974..." time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/30 Testing: Group/OperationTestsSuite.SubstTest/(00007FF7F4D376F4 pointing to "1", 00007FF7F4D376F0 pointing to "1", 00007FF7F4D376EC pointing to "2", 00007FF7F4D376E8 pointing to "0", 00007FF7F4D376E4 pointing to "1")
+21/30 Test: Group/OperationTestsSuite.SubstTest/(00007FF7F4D376F4 pointing to "1", 00007FF7F4D376F0 pointing to "1", 00007FF7F4D376EC pointing to "2", 00007FF7F4D376E8 pointing to "0", 00007FF7F4D376E4 pointing to "1")
+Command: "C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests/number_tests.exe" "--gtest_filter=Group/OperationTestsSuite.SubstTest/0" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests
+"Group/OperationTestsSuite.SubstTest/(00007FF7F4D376F4 pointing to "1", 00007FF7F4D376F0 pointing to "1", 00007FF7F4D376EC pointing to "2", 00007FF7F4D376E8 pointing to "0", 00007FF7F4D376E4 pointing to "1")" start time: Apr 16 17:43 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Gregory\Desktop\labwork2\out\build\x64-Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Group/OperationTestsSuite.SubstTest/0
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Group/OperationTestsSuite
+[ RUN      ] Group/OperationTestsSuite.SubstTest/0
+[       OK ] Group/OperationTestsSuite.SubstTest/0 (0 ms)
+[----------] 1 test from Group/OperationTestsSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Group/OperationTestsSuite.SubstTest/(00007FF7F4D376F4 pointing to "1", 00007FF7F4D376F0 pointing to "1", 00007FF7F4D376EC pointing to "2", 00007FF7F4D376E8 pointing to "0", 00007FF7F4D376E4 pointing to "1")" end time: Apr 16 17:43 RTZ 2 (çèìà)
+"Group/OperationTestsSuite.SubstTest/(00007FF7F4D376F4 pointing to "1", 00007FF7F4D376F0 pointing to "1", 00007FF7F4D376EC pointing to "2", 00007FF7F4D376E8 pointing to "0", 00007FF7F4D376E4 pointing to "1")" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/30 Testing: Group/OperationTestsSuite.SubstTest/(00007FF7F4D376DC pointing to "1024", 00007FF7F4D376D8 pointing to "1", 00007FF7F4D376D0 pointing to "1025", 00007FF7F4D376C8 pointing to "1023", 00007FF7F4D376C0 pointing to "1024")
+22/30 Test: Group/OperationTestsSuite.SubstTest/(00007FF7F4D376DC pointing to "1024", 00007FF7F4D376D8 pointing to "1", 00007FF7F4D376D0 pointing to "1025", 00007FF7F4D376C8 pointing to "1023", 00007FF7F4D376C0 pointing to "1024")
+Command: "C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests/number_tests.exe" "--gtest_filter=Group/OperationTestsSuite.SubstTest/1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests
+"Group/OperationTestsSuite.SubstTest/(00007FF7F4D376DC pointing to "1024", 00007FF7F4D376D8 pointing to "1", 00007FF7F4D376D0 pointing to "1025", 00007FF7F4D376C8 pointing to "1023", 00007FF7F4D376C0 pointing to "1024")" start time: Apr 16 17:43 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Gregory\Desktop\labwork2\out\build\x64-Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Group/OperationTestsSuite.SubstTest/1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Group/OperationTestsSuite
+[ RUN      ] Group/OperationTestsSuite.SubstTest/1
+[       OK ] Group/OperationTestsSuite.SubstTest/1 (0 ms)
+[----------] 1 test from Group/OperationTestsSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Group/OperationTestsSuite.SubstTest/(00007FF7F4D376DC pointing to "1024", 00007FF7F4D376D8 pointing to "1", 00007FF7F4D376D0 pointing to "1025", 00007FF7F4D376C8 pointing to "1023", 00007FF7F4D376C0 pointing to "1024")" end time: Apr 16 17:43 RTZ 2 (çèìà)
+"Group/OperationTestsSuite.SubstTest/(00007FF7F4D376DC pointing to "1024", 00007FF7F4D376D8 pointing to "1", 00007FF7F4D376D0 pointing to "1025", 00007FF7F4D376C8 pointing to "1023", 00007FF7F4D376C0 pointing to "1024")" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/30 Testing: Group/OperationTestsSuite.SubstTest/(00007FF7F4D37670 pointing to "405272312330606683982498447530407677486444946329741970511324085183808429621437", 00007FF7F4D37660 pointing to "1", 00007FF7F4D37610 pointing to "40527231233060668398249844753040767748644494632974197051132408518380842962...
+23/30 Test: Group/OperationTestsSuite.SubstTest/(00007FF7F4D37670 pointing to "405272312330606683982498447530407677486444946329741970511324085183808429621437", 00007FF7F4D37660 pointing to "1", 00007FF7F4D37610 pointing to "40527231233060668398249844753040767748644494632974197051132408518380842962...
+Command: "C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests/number_tests.exe" "--gtest_filter=Group/OperationTestsSuite.SubstTest/2" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests
+"Group/OperationTestsSuite.SubstTest/(00007FF7F4D37670 pointing to "405272312330606683982498447530407677486444946329741970511324085183808429621437", 00007FF7F4D37660 pointing to "1", 00007FF7F4D37610 pointing to "40527231233060668398249844753040767748644494632974197051132408518380842962..." start time: Apr 16 17:43 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Gregory\Desktop\labwork2\out\build\x64-Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Group/OperationTestsSuite.SubstTest/2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Group/OperationTestsSuite
+[ RUN      ] Group/OperationTestsSuite.SubstTest/2
+[       OK ] Group/OperationTestsSuite.SubstTest/2 (0 ms)
+[----------] 1 test from Group/OperationTestsSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Group/OperationTestsSuite.SubstTest/(00007FF7F4D37670 pointing to "405272312330606683982498447530407677486444946329741970511324085183808429621437", 00007FF7F4D37660 pointing to "1", 00007FF7F4D37610 pointing to "40527231233060668398249844753040767748644494632974197051132408518380842962..." end time: Apr 16 17:43 RTZ 2 (çèìà)
+"Group/OperationTestsSuite.SubstTest/(00007FF7F4D37670 pointing to "405272312330606683982498447530407677486444946329741970511324085183808429621437", 00007FF7F4D37660 pointing to "1", 00007FF7F4D37610 pointing to "40527231233060668398249844753040767748644494632974197051132408518380842962..." time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/30 Testing: Group/OperationTestsSuite.SubstTest/(00007FF7F4D37520 pointing to "405272312330606683982498447530407677486444946329741977764879002871583477858493", 00007FF7F4D37510 pointing to "0", 00007FF7F4D374C0 pointing to "40527231233060668398249844753040767748644494632974197776487900287158347785...
+24/30 Test: Group/OperationTestsSuite.SubstTest/(00007FF7F4D37520 pointing to "405272312330606683982498447530407677486444946329741977764879002871583477858493", 00007FF7F4D37510 pointing to "0", 00007FF7F4D374C0 pointing to "40527231233060668398249844753040767748644494632974197776487900287158347785...
+Command: "C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests/number_tests.exe" "--gtest_filter=Group/OperationTestsSuite.SubstTest/3" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests
+"Group/OperationTestsSuite.SubstTest/(00007FF7F4D37520 pointing to "405272312330606683982498447530407677486444946329741977764879002871583477858493", 00007FF7F4D37510 pointing to "0", 00007FF7F4D374C0 pointing to "40527231233060668398249844753040767748644494632974197776487900287158347785..." start time: Apr 16 17:43 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Gregory\Desktop\labwork2\out\build\x64-Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Group/OperationTestsSuite.SubstTest/3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Group/OperationTestsSuite
+[ RUN      ] Group/OperationTestsSuite.SubstTest/3
+[       OK ] Group/OperationTestsSuite.SubstTest/3 (0 ms)
+[----------] 1 test from Group/OperationTestsSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Group/OperationTestsSuite.SubstTest/(00007FF7F4D37520 pointing to "405272312330606683982498447530407677486444946329741977764879002871583477858493", 00007FF7F4D37510 pointing to "0", 00007FF7F4D374C0 pointing to "40527231233060668398249844753040767748644494632974197776487900287158347785..." end time: Apr 16 17:43 RTZ 2 (çèìà)
+"Group/OperationTestsSuite.SubstTest/(00007FF7F4D37520 pointing to "405272312330606683982498447530407677486444946329741977764879002871583477858493", 00007FF7F4D37510 pointing to "0", 00007FF7F4D374C0 pointing to "40527231233060668398249844753040767748644494632974197776487900287158347785..." time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/30 Testing: Group/OperationTestsSuite.SubstTest/(00007FF7F4D37410 pointing to "405272312330606683982498447530407677486444946329741974138101544027695953739965", 00007FF7F4D373F0 pointing to "3626777458843887524118528", 00007FF7F4D373A0 pointing to "40527231233060668398249844753040767748644494632974...
+25/30 Test: Group/OperationTestsSuite.SubstTest/(00007FF7F4D37410 pointing to "405272312330606683982498447530407677486444946329741974138101544027695953739965", 00007FF7F4D373F0 pointing to "3626777458843887524118528", 00007FF7F4D373A0 pointing to "40527231233060668398249844753040767748644494632974...
+Command: "C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests/number_tests.exe" "--gtest_filter=Group/OperationTestsSuite.SubstTest/4" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests
+"Group/OperationTestsSuite.SubstTest/(00007FF7F4D37410 pointing to "405272312330606683982498447530407677486444946329741974138101544027695953739965", 00007FF7F4D373F0 pointing to "3626777458843887524118528", 00007FF7F4D373A0 pointing to "40527231233060668398249844753040767748644494632974..." start time: Apr 16 17:43 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Gregory\Desktop\labwork2\out\build\x64-Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Group/OperationTestsSuite.SubstTest/4
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Group/OperationTestsSuite
+[ RUN      ] Group/OperationTestsSuite.SubstTest/4
+[       OK ] Group/OperationTestsSuite.SubstTest/4 (0 ms)
+[----------] 1 test from Group/OperationTestsSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Group/OperationTestsSuite.SubstTest/(00007FF7F4D37410 pointing to "405272312330606683982498447530407677486444946329741974138101544027695953739965", 00007FF7F4D373F0 pointing to "3626777458843887524118528", 00007FF7F4D373A0 pointing to "40527231233060668398249844753040767748644494632974..." end time: Apr 16 17:43 RTZ 2 (çèìà)
+"Group/OperationTestsSuite.SubstTest/(00007FF7F4D37410 pointing to "405272312330606683982498447530407677486444946329741974138101544027695953739965", 00007FF7F4D373F0 pointing to "3626777458843887524118528", 00007FF7F4D373A0 pointing to "40527231233060668398249844753040767748644494632974..." time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/30 Testing: Group/OperationTestsSuite.MultTest/(00007FF7F4D376F4 pointing to "1", 00007FF7F4D376F0 pointing to "1", 00007FF7F4D376EC pointing to "2", 00007FF7F4D376E8 pointing to "0", 00007FF7F4D376E4 pointing to "1")
+26/30 Test: Group/OperationTestsSuite.MultTest/(00007FF7F4D376F4 pointing to "1", 00007FF7F4D376F0 pointing to "1", 00007FF7F4D376EC pointing to "2", 00007FF7F4D376E8 pointing to "0", 00007FF7F4D376E4 pointing to "1")
+Command: "C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests/number_tests.exe" "--gtest_filter=Group/OperationTestsSuite.MultTest/0" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests
+"Group/OperationTestsSuite.MultTest/(00007FF7F4D376F4 pointing to "1", 00007FF7F4D376F0 pointing to "1", 00007FF7F4D376EC pointing to "2", 00007FF7F4D376E8 pointing to "0", 00007FF7F4D376E4 pointing to "1")" start time: Apr 16 17:43 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Gregory\Desktop\labwork2\out\build\x64-Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Group/OperationTestsSuite.MultTest/0
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Group/OperationTestsSuite
+[ RUN      ] Group/OperationTestsSuite.MultTest/0
+[       OK ] Group/OperationTestsSuite.MultTest/0 (0 ms)
+[----------] 1 test from Group/OperationTestsSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Group/OperationTestsSuite.MultTest/(00007FF7F4D376F4 pointing to "1", 00007FF7F4D376F0 pointing to "1", 00007FF7F4D376EC pointing to "2", 00007FF7F4D376E8 pointing to "0", 00007FF7F4D376E4 pointing to "1")" end time: Apr 16 17:43 RTZ 2 (çèìà)
+"Group/OperationTestsSuite.MultTest/(00007FF7F4D376F4 pointing to "1", 00007FF7F4D376F0 pointing to "1", 00007FF7F4D376EC pointing to "2", 00007FF7F4D376E8 pointing to "0", 00007FF7F4D376E4 pointing to "1")" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/30 Testing: Group/OperationTestsSuite.MultTest/(00007FF7F4D376DC pointing to "1024", 00007FF7F4D376D8 pointing to "1", 00007FF7F4D376D0 pointing to "1025", 00007FF7F4D376C8 pointing to "1023", 00007FF7F4D376C0 pointing to "1024")
+27/30 Test: Group/OperationTestsSuite.MultTest/(00007FF7F4D376DC pointing to "1024", 00007FF7F4D376D8 pointing to "1", 00007FF7F4D376D0 pointing to "1025", 00007FF7F4D376C8 pointing to "1023", 00007FF7F4D376C0 pointing to "1024")
+Command: "C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests/number_tests.exe" "--gtest_filter=Group/OperationTestsSuite.MultTest/1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests
+"Group/OperationTestsSuite.MultTest/(00007FF7F4D376DC pointing to "1024", 00007FF7F4D376D8 pointing to "1", 00007FF7F4D376D0 pointing to "1025", 00007FF7F4D376C8 pointing to "1023", 00007FF7F4D376C0 pointing to "1024")" start time: Apr 16 17:43 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Gregory\Desktop\labwork2\out\build\x64-Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Group/OperationTestsSuite.MultTest/1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Group/OperationTestsSuite
+[ RUN      ] Group/OperationTestsSuite.MultTest/1
+[       OK ] Group/OperationTestsSuite.MultTest/1 (0 ms)
+[----------] 1 test from Group/OperationTestsSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Group/OperationTestsSuite.MultTest/(00007FF7F4D376DC pointing to "1024", 00007FF7F4D376D8 pointing to "1", 00007FF7F4D376D0 pointing to "1025", 00007FF7F4D376C8 pointing to "1023", 00007FF7F4D376C0 pointing to "1024")" end time: Apr 16 17:43 RTZ 2 (çèìà)
+"Group/OperationTestsSuite.MultTest/(00007FF7F4D376DC pointing to "1024", 00007FF7F4D376D8 pointing to "1", 00007FF7F4D376D0 pointing to "1025", 00007FF7F4D376C8 pointing to "1023", 00007FF7F4D376C0 pointing to "1024")" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/30 Testing: Group/OperationTestsSuite.MultTest/(00007FF7F4D37670 pointing to "405272312330606683982498447530407677486444946329741970511324085183808429621437", 00007FF7F4D37660 pointing to "1", 00007FF7F4D37610 pointing to "40527231233060668398249844753040767748644494632974197051132408518380842962...
+28/30 Test: Group/OperationTestsSuite.MultTest/(00007FF7F4D37670 pointing to "405272312330606683982498447530407677486444946329741970511324085183808429621437", 00007FF7F4D37660 pointing to "1", 00007FF7F4D37610 pointing to "40527231233060668398249844753040767748644494632974197051132408518380842962...
+Command: "C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests/number_tests.exe" "--gtest_filter=Group/OperationTestsSuite.MultTest/2" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests
+"Group/OperationTestsSuite.MultTest/(00007FF7F4D37670 pointing to "405272312330606683982498447530407677486444946329741970511324085183808429621437", 00007FF7F4D37660 pointing to "1", 00007FF7F4D37610 pointing to "40527231233060668398249844753040767748644494632974197051132408518380842962..." start time: Apr 16 17:43 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Gregory\Desktop\labwork2\out\build\x64-Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Group/OperationTestsSuite.MultTest/2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Group/OperationTestsSuite
+[ RUN      ] Group/OperationTestsSuite.MultTest/2
+[       OK ] Group/OperationTestsSuite.MultTest/2 (0 ms)
+[----------] 1 test from Group/OperationTestsSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Group/OperationTestsSuite.MultTest/(00007FF7F4D37670 pointing to "405272312330606683982498447530407677486444946329741970511324085183808429621437", 00007FF7F4D37660 pointing to "1", 00007FF7F4D37610 pointing to "40527231233060668398249844753040767748644494632974197051132408518380842962..." end time: Apr 16 17:43 RTZ 2 (çèìà)
+"Group/OperationTestsSuite.MultTest/(00007FF7F4D37670 pointing to "405272312330606683982498447530407677486444946329741970511324085183808429621437", 00007FF7F4D37660 pointing to "1", 00007FF7F4D37610 pointing to "40527231233060668398249844753040767748644494632974197051132408518380842962..." time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/30 Testing: Group/OperationTestsSuite.MultTest/(00007FF7F4D37520 pointing to "405272312330606683982498447530407677486444946329741977764879002871583477858493", 00007FF7F4D37510 pointing to "0", 00007FF7F4D374C0 pointing to "40527231233060668398249844753040767748644494632974197776487900287158347785...
+29/30 Test: Group/OperationTestsSuite.MultTest/(00007FF7F4D37520 pointing to "405272312330606683982498447530407677486444946329741977764879002871583477858493", 00007FF7F4D37510 pointing to "0", 00007FF7F4D374C0 pointing to "40527231233060668398249844753040767748644494632974197776487900287158347785...
+Command: "C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests/number_tests.exe" "--gtest_filter=Group/OperationTestsSuite.MultTest/3" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests
+"Group/OperationTestsSuite.MultTest/(00007FF7F4D37520 pointing to "405272312330606683982498447530407677486444946329741977764879002871583477858493", 00007FF7F4D37510 pointing to "0", 00007FF7F4D374C0 pointing to "40527231233060668398249844753040767748644494632974197776487900287158347785..." start time: Apr 16 17:43 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Gregory\Desktop\labwork2\out\build\x64-Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Group/OperationTestsSuite.MultTest/3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Group/OperationTestsSuite
+[ RUN      ] Group/OperationTestsSuite.MultTest/3
+[       OK ] Group/OperationTestsSuite.MultTest/3 (0 ms)
+[----------] 1 test from Group/OperationTestsSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Group/OperationTestsSuite.MultTest/(00007FF7F4D37520 pointing to "405272312330606683982498447530407677486444946329741977764879002871583477858493", 00007FF7F4D37510 pointing to "0", 00007FF7F4D374C0 pointing to "40527231233060668398249844753040767748644494632974197776487900287158347785..." end time: Apr 16 17:43 RTZ 2 (çèìà)
+"Group/OperationTestsSuite.MultTest/(00007FF7F4D37520 pointing to "405272312330606683982498447530407677486444946329741977764879002871583477858493", 00007FF7F4D37510 pointing to "0", 00007FF7F4D374C0 pointing to "40527231233060668398249844753040767748644494632974197776487900287158347785..." time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/30 Testing: Group/OperationTestsSuite.MultTest/(00007FF7F4D37410 pointing to "405272312330606683982498447530407677486444946329741974138101544027695953739965", 00007FF7F4D373F0 pointing to "3626777458843887524118528", 00007FF7F4D373A0 pointing to "40527231233060668398249844753040767748644494632974...
+30/30 Test: Group/OperationTestsSuite.MultTest/(00007FF7F4D37410 pointing to "405272312330606683982498447530407677486444946329741974138101544027695953739965", 00007FF7F4D373F0 pointing to "3626777458843887524118528", 00007FF7F4D373A0 pointing to "40527231233060668398249844753040767748644494632974...
+Command: "C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests/number_tests.exe" "--gtest_filter=Group/OperationTestsSuite.MultTest/4" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Gregory/Desktop/labwork2/out/build/x64-Debug/tests
+"Group/OperationTestsSuite.MultTest/(00007FF7F4D37410 pointing to "405272312330606683982498447530407677486444946329741974138101544027695953739965", 00007FF7F4D373F0 pointing to "3626777458843887524118528", 00007FF7F4D373A0 pointing to "40527231233060668398249844753040767748644494632974..." start time: Apr 16 17:43 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Gregory\Desktop\labwork2\out\build\x64-Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Group/OperationTestsSuite.MultTest/4
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Group/OperationTestsSuite
+[ RUN      ] Group/OperationTestsSuite.MultTest/4
+[       OK ] Group/OperationTestsSuite.MultTest/4 (0 ms)
+[----------] 1 test from Group/OperationTestsSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Group/OperationTestsSuite.MultTest/(00007FF7F4D37410 pointing to "405272312330606683982498447530407677486444946329741974138101544027695953739965", 00007FF7F4D373F0 pointing to "3626777458843887524118528", 00007FF7F4D373A0 pointing to "40527231233060668398249844753040767748644494632974..." end time: Apr 16 17:43 RTZ 2 (çèìà)
+"Group/OperationTestsSuite.MultTest/(00007FF7F4D37410 pointing to "405272312330606683982498447530407677486444946329741974138101544027695953739965", 00007FF7F4D373F0 pointing to "3626777458843887524118528", 00007FF7F4D373A0 pointing to "40527231233060668398249844753040767748644494632974..." time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 16 17:43 RTZ 2 (çèìà)
