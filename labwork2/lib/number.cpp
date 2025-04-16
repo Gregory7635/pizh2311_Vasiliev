@@ -106,6 +106,45 @@ uint2022_t operator*(const uint2022_t& lhs, const uint2022_t& rhs) {
 
     return result;
 }
+bool operator==(const uint2022_t& lhs, const uint2022_t& rhs) {
+    for (size_t i = 0; i < lhs.NUM_WORDS; i++) {
+        if (lhs.parts[i] != rhs.parts[i]) {
+            return false;
+        }
+    }
+    return true;
+}
+
+uint2022_t operator/(const uint2022_t& lhs, const uint2022_t& rhs) {
+    if (rhs == uint2022_t()) {
+
+        return uint2022_t();
+    }
+
+    uint2022_t quotient;
+    uint2022_t remainder = lhs;
+
+    while (!(remainder < rhs)) {
+        uint2022_t temp_divisor = rhs;
+        uint2022_t multiple = from_uint(1);
+
+        //                   ,         "       "          
+        while (!(remainder < (temp_divisor + temp_divisor))) {
+            temp_divisor = temp_divisor + temp_divisor;
+            multiple = multiple + multiple;
+        }
+
+        remainder = remainder - temp_divisor;
+        quotient = quotient + multiple;
+    }
+
+    return quotient;
+}
+
+
+
+
+
 
 
 
