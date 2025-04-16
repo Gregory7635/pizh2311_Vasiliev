@@ -1,4 +1,4 @@
-// labwork2/lib/number.h
+
 #pragma once
 #include <cinttypes>
 #include <iostream>
