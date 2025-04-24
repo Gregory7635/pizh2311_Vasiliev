@@ -105,7 +105,7 @@ void loadInitialState(std::vector<std::vector<uint64_t>>& grid,
 
 int main(int argc, char* argv[]) {
     try {
-        // Парсинг аргументов
+    
         uint16_t width = 0, height = 0;
         std::string input, output;
         uint64_t max_iter = 0, freq = 0;
