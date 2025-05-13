@@ -1,11 +1,8 @@
-cmake_minimum_required(VERSION 3.23)
+# CMakeLists.txt
+cmake_minimum_required(VERSION 3.10)
+project(BSTTraversal)
 
-project(labwork_8)
+set(CMAKE_CXX_STANDARD 17)
 
-set(CMAKE_CXX_STANDARD 20)
-
-add_subdirectory(lib)
-
-
-enable_testing()
-add_subdirectory(tests)
+include_directories(include)
+add_executable(bst src/main.cpp)
