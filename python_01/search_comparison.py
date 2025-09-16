@@ -55,3 +55,51 @@ def binary_search(arr: List[int], target: int) -> Optional[int]:
             
     return None                   # O(1) - элемент не найден
     # Общая сложность: O(log n) * O(1) = O(log n)
+
+
+def measure_time(func, arr: List[int], target: int, number_of_runs: int = 100) -> float:
+    """
+    Измеряет среднее время выполнения функции поиска.
+    
+    Аргументы:
+        func: Функция поиска (linear_search или binary_search)
+        arr: Массив для поиска
+        target: Искомый элемент
+        number_of_runs: Количество запусков для усреднения
+        
+    Возвращает:
+        Среднее время выполнения в миллисекундах
+    """
+    total_time = timeit.timeit(lambda: func(arr, target), number=number_of_runs)
+    return (total_time / number_of_runs) * 1000  # Конвертация в миллисекунды
+
+
+def generate_test_data(size: int) -> List[int]:
+    """
+    Генерирует отсортированный массив целых чисел.
+    
+    Аргументы:
+        size: Размер массива
+        
+    Возвращает:
+        Отсортированный массив уникальных чисел
+    """
+    return sorted(random.sample(range(size * 3), size))
+
+
+def get_test_cases(arr: List[int]) -> List[int]:
+    """
+    Возвращает различные тестовые случаи для поиска.
+    
+    Аргументы:
+        arr: Массив для тестирования
+        
+    Возвращает:
+        Список целей для поиска: [первый, последний, средний, отсутствующий]
+    """
+    return [
+        arr[0],                 # Первый элемент
+        arr[-1],                # Последний элемент  
+        arr[len(arr) // 2],     # Средний элемент
+        -1                      # Отсутствующий элемент
+    ]
