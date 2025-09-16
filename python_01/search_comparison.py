@@ -103,3 +103,91 @@ def get_test_cases(arr: List[int]) -> List[int]:
         arr[len(arr) // 2],     # Средний элемент
         -1                      # Отсутствующий элемент
     ]
+
+
+def main():
+    """Основная функция для проведения экспериментов и анализа."""
+    # Характеристики ПК для воспроизводимости
+    pc_info = """
+    Характеристики ПК для тестирования:
+    - Процессор: Intel Core i7-8700 @ 3.6GHz
+    - Оперативная память: 32 GB DDR4
+    - OC: Windows 11
+    - Python: 3.11.9
+    """
+    print(pc_info)
+    
+    # Размеры массивов для тестирования
+    sizes = [1000, 2000, 5000, 10000, 20000, 50000, 100000, 200000, 500000]
+    linear_times = []
+    binary_times = []
+    
+    print("Замеры времени выполнения (среднее по 100 запускам):")
+    print("Размер | Линейный (мс) | Бинарный (мс) | Отношение")
+    print("-" * 55)
+    
+    for size in sizes:
+        # Генерация тестовых данных
+        arr = generate_test_data(size)
+        targets = get_test_cases(arr)
+        
+        # Измерение времени для линейного поиска (поиск последнего элемента)
+        linear_time = measure_time(linear_search, arr, arr[-1])
+        linear_times.append(linear_time)
+        
+        # Измерение времени для бинарного поиска (поиск последнего элемента)
+        binary_time = measure_time(binary_search, arr, arr[-1])
+        binary_times.append(binary_time)
+        
+        # Вывод результатов
+        ratio = linear_time / binary_time if binary_time > 0 else 0
+        print(f"{size:6} | {linear_time:12.4f} | {binary_time:12.4f} | {ratio:8.1f}x")
+    
+    # Построение графиков
+    plt.figure(figsize=(15, 6))
+    
+    # График 1: Линейный масштаб
+    plt.subplot(1, 2, 1)
+    plt.plot(sizes, linear_times, 'ro-', label='Линейный поиск O(n)')
+    plt.plot(sizes, binary_times, 'bo-', label='Бинарный поиск O(log n)')
+    plt.xlabel('Размер массива')
+    plt.ylabel('Время выполнения (мс)')
+    plt.title('Сравнение времени поиска (линейный масштаб)')
+    plt.grid(True, linestyle='--', alpha=0.7)
+    plt.legend()
+    
+    # График 2: Логарифмический масштаб по обеим осям
+    plt.subplot(1, 2, 2)
+    plt.loglog(sizes, linear_times, 'ro-', label='Линейный поиск O(n)')
+    plt.loglog(sizes, binary_times, 'bo-', label='Бинарный поиск O(log n)')
+    plt.xlabel('Размер массива')
+    plt.ylabel('Время выполнения (мс)')
+    plt.title('Сравнение времени поиска (log-log scale)')
+    plt.grid(True, linestyle='--', alpha=0.7)
+    plt.legend()
+    
+    plt.tight_layout()
+    plt.savefig('search_comparison.png', dpi=300, bbox_inches='tight')
+    print("\nГрафик сохранен в файл 'search_comparison.png'")
+    
+    # Анализ результатов
+    print("\n=== АНАЛИЗ РЕЗУЛЬТАТОВ ===")
+    print("1. Теоретическая сложность:")
+    print("   - Линейный поиск: O(n)")
+    print("   - Бинарный поиск: O(log n)")
+    
+    print("\n2. Практические результаты подтверждают теорию:")
+    print("   - Линейный поиск: время растет пропорционально n")
+    print("   - Бинарный поиск: время растет логарифмически")
+    
+    print("\n3. Эффективность бинарного поиска:")
+    print(f"   - Для {sizes[-1]} элементов: в {linear_times[-1]/binary_times[-1]:.1f} раз быстрее")
+    
+    print("\n4. Визуальное подтверждение:")
+    print("   - График в линейном масштабе: виден экспоненциальный рост разницы")
+    print("   - График в log-log scale: линейный поиск - прямая линия (линейный рост)")
+    print("     бинарный поиск - пологая кривая (логарифмический рост)")
+
+
+if __name__ == "__main__":
+    main()
