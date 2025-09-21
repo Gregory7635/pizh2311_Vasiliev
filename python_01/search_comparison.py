@@ -135,12 +135,17 @@ def main():
         # Генерация тестовых данных
         arr = generate_test_data(size)
 
-        # Измерение времени для линейного поиска (поиск последнего элемента)
-        linear_time = measure_time(linear_search, arr, arr[-1])
+        # Получаем тестовые цели
+        test_cas = get_test_cases(arr)
+
+        # Линейный поиск: усредняем время по всем кейсам
+        total_time = sum(measure_time(linear_search, arr, t) for t in test_cas)
+        linear_time = total_time / len(test_cas)
         linear_times.append(linear_time)
 
-        # Измерение времени для бинарного поиска (поиск последнего элемента)
-        binary_time = measure_time(binary_search, arr, arr[-1])
+        # Бинарный поиск: усредняем время по всем кейсам
+        total_binary_time = sum(measure_time(binary_search, arr, t) for t in test_cas)
+        binary_time = total_binary_time / len(test_cas)
         binary_times.append(binary_time)
 
         # Вывод результатов
